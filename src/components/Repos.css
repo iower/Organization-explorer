@@ -1,0 +1,61 @@
+.Repos {
+	margin: 5px;
+	background: white;
+	border-collapse: collapse;
+}
+
+.Repos td {
+	border: 1px solid #ddd;
+	padding: 3px 4px;
+	vertical-align: top;
+}
+
+.Repos tr td:nth-child(1),
+.Repos tr td:nth-child(2),
+.Repos tr td:nth-child(3) {
+	text-align: right;
+}
+
+.Repos tr td:nth-child(4) {
+	width: 60%;
+}
+
+.Repos tr td:nth-child(5) {
+	width: 40%;
+}
+
+.Repos tr td:nth-child(1) {
+	background-color: #e7711b66;
+}
+
+.Repos tr td:nth-child(2) {
+	background-color: #ddd;
+}
+
+.Repos tr td:nth-child(3) {
+	background-color: #de061244;
+}
+
+
+
+.repo-name {
+	margin: 0;
+	font-size: 17px;
+}
+
+.repo-stars-count {
+	
+}
+
+.repo-forks-count {
+	margin: 0 5px;
+}
+
+.repo-open-issues-count {
+	
+}
+
+.repo-description {
+	margin-top: 2px;
+	font-size: 13px;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import Repo from './components/Repo'
+import Repos from './components/Repos'
 
 class App extends React.Component {
 	
@@ -40,9 +40,7 @@ class App extends React.Component {
 					?
 					<div>Loading...</div>
 					:
-					this.state.repos.map(repo => {
-						return <Repo data={repo} />
-					})
+					<Repos data={this.state.repos} />
 				}
 			</div>
 		);
