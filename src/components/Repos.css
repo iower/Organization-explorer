@@ -24,6 +24,11 @@
 	width: 40%;
 }
 
+.Repos th {
+	color: #777;
+	font-weight: normal;
+}
+
 .Repos tr td:nth-child(1) {
 	background-color: #e7711b66;
 }
